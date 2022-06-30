@@ -9,7 +9,7 @@ namespace demo_simple_ion_cms.Controllers
 {
     [Route("api/v{version:apiVersion}/retries")]
     [ApiController]
-    [ApiVersion("1")]
+    [ApiVersion("2")]
     public class RetryController : ControllerBase
     {
         private readonly IRetryService _retryService;
@@ -20,7 +20,7 @@ namespace demo_simple_ion_cms.Controllers
         }
         
         [HttpGet]
-        [MapToApiVersion("1")]
+        [MapToApiVersion("2")]
         public async Task<IActionResult> DemoRetry()
         {
             Retry.Do(() => _retryService.DemoRetry(), TimeSpan.FromSeconds(2), 5);

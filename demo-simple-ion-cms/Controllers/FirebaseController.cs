@@ -8,7 +8,7 @@ namespace demo_simple_ion_cms.Controllers
 {
     [Route("api/v{version:apiVersion}/firebases")]
     [ApiController]
-    [ApiVersion("1")]
+    [ApiVersion("2")]
     public class FirebaseController : ControllerBase
     {
         public FirebaseController()
@@ -16,7 +16,7 @@ namespace demo_simple_ion_cms.Controllers
         }
 
         [HttpGet]
-        [MapToApiVersion("1")]
+        [MapToApiVersion("2")]
         public async Task<IActionResult> DemoGet(string child)
         {
             var response = await FirebaseUtil.Get<List<string>>(child);
@@ -25,7 +25,7 @@ namespace demo_simple_ion_cms.Controllers
         }
         
         [HttpPost]
-        [MapToApiVersion("1")]
+        [MapToApiVersion("2")]
         public async Task<IActionResult> DemoUpdate([FromQuery]string child, [FromBody]string data)
         {
             var response = await FirebaseUtil.Update(child, data);

@@ -7,15 +7,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f01ebd4e-1d50-41a2-b6d5-660b8cb29206" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Controllers/AsynchronousController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Datas/Skills.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Datas/Tags.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Utils/AsynchronousUtil.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.demo-simple-ion-cms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.demo-simple-ion-cms/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/IServices/IFavouriteFoodService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/IServices/IFavouriteFoodService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/Services/CustomerService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Services/CustomerService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/Services/FavouriteFoodService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Services/FavouriteFoodService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/Constants/GlobalConstants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Constants/GlobalConstants.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/Controllers/FirebaseController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Controllers/FirebaseController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/Controllers/RetryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Controllers/RetryController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JSON File" />
+      </list>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1615e9b36455f25f10df56b1d1807e6b1ba87f61faaa514a488347fb836a0d2/ApiVersionRouteConstraint.cs" root0="SKIP_HIGHLIGHTING" />
@@ -101,7 +112,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656487867281</updated>
-      <workItem from="1656487871693" duration="21741000" />
+      <workItem from="1656487871693" duration="24149000" />
     </task>
     <servers />
   </component>
