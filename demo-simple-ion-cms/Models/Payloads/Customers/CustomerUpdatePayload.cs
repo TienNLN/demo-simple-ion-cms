@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using demo_simple_ion_cms.Validators;
 
-namespace demo_simple_ion_cms.Models.Payloads
+namespace demo_simple_ion_cms.Models.Payloads.Customers
 {
-    public class CustomerCreatePayload
+    public class CustomerUpdatePayload
     {
         [MaxLength(100)]
         public string FirstName { get; set; }
@@ -14,8 +12,5 @@ namespace demo_simple_ion_cms.Models.Payloads
         public string LastName { get; set; }
         
         public DateTime? DOB { get; set; }
-        
-        [IndexesNormalChars]
-        public List<string> FavouriteFoodNames { get; set; }
     }
 }

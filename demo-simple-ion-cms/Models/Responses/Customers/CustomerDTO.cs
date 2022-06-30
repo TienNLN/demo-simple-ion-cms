@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using demo_simple_ion_cms.Models.Responses.FavouriteFoods;
 
-namespace demo_simple_ion_cms.Models.Responses
+namespace demo_simple_ion_cms.Models.Responses.Customers
 {
     public class CustomerDTO
     {

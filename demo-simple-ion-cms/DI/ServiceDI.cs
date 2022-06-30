@@ -17,6 +17,8 @@ namespace demo_simple_ion_cms.DI
 
             services.AddScoped<IFavouriteFoodRepository, FavouriteFoodRepository>();
             services.AddScoped<IFavouriteFoodService, FavouriteFoodService>();
+
+            services.AddScoped<IRetryService, RetryService>();
         }
     }
 }

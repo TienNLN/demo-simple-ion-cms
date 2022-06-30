@@ -7,59 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f01ebd4e-1d50-41a2-b6d5-660b8cb29206" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Constants/ErrorConstants.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Constants/GlobalConstants.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Controllers/CustomerController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Controllers/FirebaseController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/DI/ServiceDI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/DbContexts/DemoDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Entities/Customer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Entities/FavouriteFood.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Extensions/SwaggerExtension.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/IRepositories/IBaseRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/IRepositories/ICustomerRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/IRepositories/IFavouriteFoodRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/IServices/ICustomerService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/IServices/IFavouriteFoodService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Middleware/InternalExceptionMiddleware.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Middleware/InternalExceptionMiddlewareExtension.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Models/Common/ErrorResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Models/Common/GenericResult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Models/Common/MultiObjectResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Models/Common/SingleObjectResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Models/Datas/CustomerUpdateDataModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Models/Datas/FavouriteFoods/FavouriteFoodCreateDataModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Models/Datas/FavouriteFoods/FavouriteFoodCreateRangeDataModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Models/Payloads/CustomerCreatePayload.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Models/Payloads/CustomerUpdatePayload.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Models/Responses/CustomerDTO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Models/Responses/FavouriteFoods/FavouriteFoodDTO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Profiles/CustomerProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Profiles/ErrorResponseProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Profiles/FavouriteFoodProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Repositories/BaseRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Repositories/CustomerRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Repositories/FavouriteFoodRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Services/CustomerService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Services/FavouriteFoodService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Utils/FirebaseUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Validators/IndexesNormalCharsAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Controllers/RetryController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/IServices/IRetryService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Services/RetryService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Utils/Retry.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.demo-simple-ion-cms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.demo-simple-ion-cms/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/WeatherForecast.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/demo-simple-ion-cms.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/demo-simple-ion-cms.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/obj/Debug/net5.0/demo-simple-ion-cms.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/obj/Debug/net5.0/demo-simple-ion-cms.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/obj/Debug/net5.0/demo-simple-ion-cms.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/obj/Debug/net5.0/demo-simple-ion-cms.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/obj/demo-simple-ion-cms.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/obj/demo-simple-ion-cms.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/obj/demo-simple-ion-cms.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/obj/demo-simple-ion-cms.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/Controllers/CustomerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Controllers/CustomerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/Controllers/FirebaseController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Controllers/FirebaseController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/DI/ServiceDI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/DI/ServiceDI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/IServices/ICustomerService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/IServices/ICustomerService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/Models/Datas/CustomerUpdateDataModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Models/Datas/Customers/CustomerUpdateDataModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/Models/Payloads/CustomerCreatePayload.cs" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Models/Payloads/Customers/CustomerCreatePayload.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/Models/Payloads/CustomerUpdatePayload.cs" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Models/Payloads/Customers/CustomerUpdatePayload.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/Models/Responses/CustomerDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Models/Responses/Customers/CustomerDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/Profiles/CustomerProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Profiles/CustomerProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-simple-ion-cms/Services/CustomerService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/demo-simple-ion-cms/Services/CustomerService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +33,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/25b51c2f6c12b195e69f7a7a3d736752f38d0ebbb634789cc423b97bf8d7b/ConfigurationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3839fc8fee5ae62538a4469ed86bbba1ccd15d4e0da63bba779abe1719da3/IConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/665d6c9fde2c4697c27c9cc4842565c69785bc831147651c7b39f18b7c22/NotFoundResult.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/afdb9066c2224c2ca693b338c57624786b5a84c757a9c562c9a61297c6e/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -147,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656487867281</updated>
-      <workItem from="1656487871693" duration="18471000" />
+      <workItem from="1656487871693" duration="20948000" />
     </task>
     <servers />
   </component>
@@ -169,5 +132,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/demo-simple-ion-cms/Utils/Retry.cs</url>
+          <line>28</line>
+          <properties documentPath="E:\FPT Software - ADG\demo-simple-ion-cms\demo-simple-ion-cms\Utils\Retry.cs" initialLine="28" containingFunctionPresentation="method 'Do'">
+            <startOffsets>
+              <option value="667" />
+            </startOffsets>
+            <endOffsets>
+              <option value="732" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

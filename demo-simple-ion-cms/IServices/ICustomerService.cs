@@ -2,8 +2,10 @@
 using System.Threading.Tasks;
 using demo_simple_ion_cms.Models.Common;
 using demo_simple_ion_cms.Models.Datas;
-using demo_simple_ion_cms.Models.Payloads;
+using demo_simple_ion_cms.Models.Datas.Customers;
+using demo_simple_ion_cms.Models.Payloads.Customers;
 using demo_simple_ion_cms.Models.Responses;
+using demo_simple_ion_cms.Models.Responses.Customers;
 
 namespace demo_simple_ion_cms.IServices
 {

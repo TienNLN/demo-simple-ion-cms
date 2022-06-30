@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace demo_simple_ion_cms.Models.Datas
+namespace demo_simple_ion_cms.Models.Datas.Customers
 {
     public class CustomerUpdateDataModel
     {
