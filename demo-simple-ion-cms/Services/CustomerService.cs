@@ -76,6 +76,14 @@ namespace demo_simple_ion_cms.Services
                 .ToListAsync();
 
             var response = _mapper.Map<List<CustomerDTO>>(targetCustomers);
+            // response.ForEach(async tempCustomer =>
+            //     tempCustomer.FavouriteFoods = (await _favouriteFoodService.GetByCustomerId(tempCustomer.Id)).Data);
+            
+            foreach (var tempResponse in response)
+            {
+                var targetFavFoods = await _favouriteFoodService.GetByCustomerId(tempResponse.Id);
+                tempResponse.FavouriteFoods = targetFavFoods.Data;
+            }
 
             return GenericResult<List<CustomerDTO>>.Success(response);
         }
@@ -93,8 +101,11 @@ namespace demo_simple_ion_cms.Services
                 return GenericResult<CustomerDTO>.Error((int)HttpStatusCode.NotFound, 
                     "Customer is not found.");
             }
+
+            var targetFavFoods = await _favouriteFoodService.GetByCustomerId(targetCustomer.Id);
             
             var response = _mapper.Map<CustomerDTO>(targetCustomer);
+            response.FavouriteFoods = targetFavFoods.Data;
 
             return GenericResult<CustomerDTO>.Success(response);
         }

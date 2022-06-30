@@ -12,5 +12,6 @@ namespace demo_simple_ion_cms.IServices
         Task<GenericResult<List<FavouriteFoodDTO>>> CreateNew(FavouriteFoodCreateRangeDataModel dataModel);
         Task<GenericResult<FavouriteFoodDTO>> CreateNew(FavouriteFoodCreateDataModel dataModel);
         Task<GenericResult<List<FavouriteFoodDTO>>> GetAll();
+        Task<GenericResult<List<FavouriteFoodDTO>>> GetByCustomerId(int customerId);
     }
 }

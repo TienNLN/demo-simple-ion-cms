@@ -141,5 +141,18 @@ namespace demo_simple_ion_cms.Services
 
             return GenericResult<List<FavouriteFoodDTO>>.Success(response);
         }
+
+        public async Task<GenericResult<List<FavouriteFoodDTO>>> GetByCustomerId(int customerId)
+        {
+            var targetFavFoods = await _favouriteFoodRepository
+                .Get()
+                .AsNoTracking()
+                .Where(tempFavFood => tempFavFood.CustomerId == customerId)
+                .ToListAsync();
+
+            var response = _mapper.Map<List<FavouriteFoodDTO>>(targetFavFoods);
+
+            return GenericResult<List<FavouriteFoodDTO>>.Success(response);
+        }
     }
 }
